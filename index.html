@@ -104,10 +104,6 @@ function resizeWidthHeight( target_length_px, w0, h0 ){
 
 function printWidthHeight( width_height_id, flag, w, h ){
   var wh = document.getElementById( width_height_id );
-  if( !flag ){
-    wh.innerHTML = "なし";
-    return;
-  }
   wh.innerHTML = '幅: ' + w + ', 高さ: ' + h;
 }
 
